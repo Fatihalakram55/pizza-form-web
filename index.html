@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Pizza</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header -->
+<header>
+    <h1>Pemesanan Pizza</h1>
+    <p><i>Pizza lezat, cepat sampai kerumah anda</i></p>
+    <nav>
+        <a href="#menu">Lihat menu</a> |
+        <a href="#pesan">Pesan sekarang</a> |
+        <a href="#kontak">Kontak kami</a>
+    </nav>
+    <hr>
+</header>
+<!-- gambar promosi -->
+<section>
+    <h2>Promo bulan ini!</h2>
+    <img src="image/promo.jpg" alt="Promosi Pizza" width="300">
+    <p><mark>Diskon 30%</mark> untuk semua pizza ukuran besar!</p>
+    <ul>
+        <li>Rotinya empuk</li>
+        <li>Harga terjangkau</li>
+        <li>Kaya akan rempah</li>
+    </ul>
+</section>
+<!-- menu -->
+<section id="menu">
+    <h2>Menu pizza</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Ukuran</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pepperoni</td>
+                <td>Kecil</td>
+                <td>Rp 30.000</td>
+            </tr>
+            <tr>
+                <td>Vegetarian</td>
+                <td>Sedang</td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+                <td>BBQ Chicken</td>
+                <td>Besar</td>
+                <td>Rp 70.000</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Section: Formulir Pemesanan -->
+<section id="pesan">
+    <h2>Formulir Pemesanan</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama Anda :</label><br>   
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" placeholder="contoh@email.com"><br><br>
+
+        <label for="ukuran">Ukuran Pizza :</label><br>
+        <select name="ukuran" id="ukuran">
+            <option value="kecil">Kecil</option>
+            <option value="sedang">Sedang</option>
+            <option value="besar">Besar</option>
+        </select><br><br>
+
+        <label>Pilih Topping :</label><br>
+        <input type="checkbox" name="topping" value="keju"> Keju
+        <input type="checkbox" name="topping" value="jamur"> Jamur
+        <input type="checkbox" name="topping" value="daging"> Daging<br><br>
+
+        <label>Pilih Jenis Pizza :</label><br>
+        <input type="radio" name="jenis" value="Pepperoni"> Pepperoni
+        <input type="radio" name="jenis" value="Vegetarian"> Vegetarian
+        <input type="radio" name="jenis" value="BBQ Chicken"> BBQ Chicken<br><br>
+
+        <label for="catatan">Catatan Tambahan :</label><br>
+        <textarea name="catatan" id="catatan" rows="4" cols="30" placeholder="Contoh: Tanpa sambal,"></textarea><br><br>
+        
+        <button type="submit">Pesan Sekarang</button>
+    </form>
+</section>
+
+<!-- Section: Kontak -->
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>📍 Jl.Pizza No.1 Jakarta</p>
+    <p>📞 <b>0812-3456-7890</b></p>
+    <p>Email: <a href="mailto:fatihalakram55@gmail.com">info@pizzamantap.com</a></p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <hr>
+    <p><small>&copy; 2025 Pizza Mantap. All Rights Reserved</small></p>
+</footer>
+
+</body>
+</html>
